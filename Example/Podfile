@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SVStatusBarNotification_Example' do
+  pod 'SVStatusBarNotification', :path => '../'
+
+  target 'SVStatusBarNotification_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
