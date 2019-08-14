@@ -11,7 +11,7 @@
 		2AA6430255DE2141A10ABBAC4D7C0806 /* Pods-SVStatusBarNotification_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E79C6E35606CC05534CA7C7757C64DE /* Pods-SVStatusBarNotification_Example-dummy.m */; };
 		2E11BE247294E4090736E86A6D6B4CF1 /* Pods-SVStatusBarNotification_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A839C4C5EDCB70955A1EE09198EDE6 /* Pods-SVStatusBarNotification_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88541F8AC4B366171FB1216B201BBAC0 /* SVStatusBarNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAEAFC56ED775E8F993DCFE464DB4E6 /* SVStatusBarNotification-dummy.m */; };
-		8A08AD5D51A9769C37C77EB802DDB760 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E05400C29018585F21489641CA965D /* ReplaceMe.swift */; };
+		8A08AD5D51A9769C37C77EB802DDB760 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E05400C29018585F21489641CA965D /* Reachability.swift */; };
 		909E0D8F9060BB71BC2611373D4FCE6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		90CCA886B9EB79228DB4C5A5FD0EE0B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		90FB9408BEC2425124233DAB8F900026 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -40,7 +40,7 @@
 		073931682723E8CD71FF3EE42085A6A7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		07D05379A950DF71BDA2BE9FF9F250A3 /* Pods-SVStatusBarNotification_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SVStatusBarNotification_Tests.modulemap"; sourceTree = "<group>"; };
 		0FD64821C3A23046CEF1184AFD6BA151 /* Pods-SVStatusBarNotification_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SVStatusBarNotification_Tests-Info.plist"; sourceTree = "<group>"; };
-		17E05400C29018585F21489641CA965D /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = SVStatusBarNotification/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		17E05400C29018585F21489641CA965D /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = SVStatusBarNotification/Classes/Reachability.swift; sourceTree = "<group>"; };
 		2A76BFE9F2BE991E35D83708BE5DE852 /* SVStatusBarNotification.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVStatusBarNotification.xcconfig; sourceTree = "<group>"; };
 		2BC4EA2211800345823FA39E5B58FDF4 /* Pods-SVStatusBarNotification_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SVStatusBarNotification_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2E80CB4189B2F1D276387F96C1FD0A7F /* SVStatusBarNotification.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = SVStatusBarNotification.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -213,7 +213,7 @@
 		F14A7171D00C16A9FBC7DD8AD90D244E /* SVStatusBarNotification */ = {
 			isa = PBXGroup;
 			children = (
-				17E05400C29018585F21489641CA965D /* ReplaceMe.swift */,
+				17E05400C29018585F21489641CA965D /* Reachability.swift */,
 				007B62AE56AFFBE39C8AA3451E927E00 /* Pod */,
 				E2548EFE25508695B7E0F6AA95304EB1 /* Support Files */,
 			);
@@ -369,7 +369,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A08AD5D51A9769C37C77EB802DDB760 /* ReplaceMe.swift in Sources */,
+				8A08AD5D51A9769C37C77EB802DDB760 /* Reachability.swift in Sources */,
 				88541F8AC4B366171FB1216B201BBAC0 /* SVStatusBarNotification-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
