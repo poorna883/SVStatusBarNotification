@@ -27,3 +27,9 @@ pateldevang, devangpatel92@gmail.com
 ## License
 
 SVStatusBarNotification is available under the MIT license. See the LICENSE file for more info.
+
+## Some previous pods for reference 
+
+1. https://github.com/IdleHandsApps/StatusBarOverlay
+2. https://github.com/cezarywojcik/CWStatusBarNotification
+3. https://github.com/ezefranca/EFInternetIndicator
