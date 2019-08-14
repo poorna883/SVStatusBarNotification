@@ -1,0 +1,16 @@
+PODS:
+  - SVStatusBarNotification (0.1.0)
+
+DEPENDENCIES:
+  - SVStatusBarNotification (from `../`)
+
+EXTERNAL SOURCES:
+  SVStatusBarNotification:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SVStatusBarNotification: 851c8dcac7b36a3fb50cf14c7380f23b5839bbf7
+
+PODFILE CHECKSUM: 20c34ed736e07dc5a2a01fb0285c3a02e602b1c5
+
+COCOAPODS: 1.6.1

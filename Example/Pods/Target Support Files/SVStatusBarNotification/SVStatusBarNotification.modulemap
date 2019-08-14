@@ -1,0 +1,6 @@
+framework module SVStatusBarNotification {
+  umbrella header "SVStatusBarNotification-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "SVStatusBarNotification",
+  "version": "0.1.0",
+  "summary": "A short description of SVStatusBarNotification.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pateldevang/SVStatusBarNotification",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pateldevang": "devangpatel92@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/pateldevang/SVStatusBarNotification.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "SVStatusBarNotification/Classes/**/*"
+}
