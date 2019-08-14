@@ -10,6 +10,7 @@
 		1783DCD826BAB76D475BDDA13E8221F0 /* Pods-SVStatusBarNotification_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E0601EC68C264E8AF45970AA25A76BC /* Pods-SVStatusBarNotification_Tests-dummy.m */; };
 		2AA6430255DE2141A10ABBAC4D7C0806 /* Pods-SVStatusBarNotification_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E79C6E35606CC05534CA7C7757C64DE /* Pods-SVStatusBarNotification_Example-dummy.m */; };
 		2E11BE247294E4090736E86A6D6B4CF1 /* Pods-SVStatusBarNotification_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A839C4C5EDCB70955A1EE09198EDE6 /* Pods-SVStatusBarNotification_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		772C345C2304864500701B5E /* statusBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772C345B2304864500701B5E /* statusBarView.swift */; };
 		88541F8AC4B366171FB1216B201BBAC0 /* SVStatusBarNotification-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAEAFC56ED775E8F993DCFE464DB4E6 /* SVStatusBarNotification-dummy.m */; };
 		8A08AD5D51A9769C37C77EB802DDB760 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E05400C29018585F21489641CA965D /* Reachability.swift */; };
 		909E0D8F9060BB71BC2611373D4FCE6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -53,6 +54,7 @@
 		6B054C3AC4DEA7D4A500C942CF225728 /* SVStatusBarNotification-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVStatusBarNotification-Info.plist"; sourceTree = "<group>"; };
 		6BAEAFC56ED775E8F993DCFE464DB4E6 /* SVStatusBarNotification-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVStatusBarNotification-dummy.m"; sourceTree = "<group>"; };
 		76696E0E640ACC6283987440E5EE8B36 /* SVStatusBarNotification.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVStatusBarNotification.modulemap; sourceTree = "<group>"; };
+		772C345B2304864500701B5E /* statusBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = statusBarView.swift; sourceTree = "<group>"; };
 		818F7CFB6DB2BA8282E0C37FDF1A31E0 /* Pods-SVStatusBarNotification_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SVStatusBarNotification_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8DC90A7FBD527D35828D7F6F29B20F1B /* Pods-SVStatusBarNotification_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SVStatusBarNotification_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E747D69435294D715FB2A26C1D4ECDF /* Pods-SVStatusBarNotification_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SVStatusBarNotification_Example-frameworks.sh"; sourceTree = "<group>"; };
@@ -214,6 +216,7 @@
 			isa = PBXGroup;
 			children = (
 				17E05400C29018585F21489641CA965D /* Reachability.swift */,
+				772C345B2304864500701B5E /* statusBarView.swift */,
 				007B62AE56AFFBE39C8AA3451E927E00 /* Pod */,
 				E2548EFE25508695B7E0F6AA95304EB1 /* Support Files */,
 			);
@@ -319,6 +322,9 @@
 					2F028654D4E1C09634BF07496B1AC322 = {
 						LastSwiftMigration = 1010;
 					};
+					7655C254809D7B8B81D0FC57810CD73C = {
+						LastSwiftMigration = 1010;
+					};
 				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
@@ -378,6 +384,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				772C345C2304864500701B5E /* statusBarView.swift in Sources */,
 				2AA6430255DE2141A10ABBAC4D7C0806 /* Pods-SVStatusBarNotification_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +517,7 @@
 			baseConfigurationReference = 996E2951AAAA702CA64C7CF395B55CE8 /* Pods-SVStatusBarNotification_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -532,6 +540,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -544,6 +553,7 @@
 			baseConfigurationReference = 2BC4EA2211800345823FA39E5B58FDF4 /* Pods-SVStatusBarNotification_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -566,6 +576,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
